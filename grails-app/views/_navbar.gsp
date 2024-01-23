@@ -17,8 +17,8 @@ Book Store
 <!-- The collapsing menu -->
 <div class="collapse navbar-collapse" id="navbarNav">
    <ul class="navbar-nav mr-auto">
-       <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
-       <li class="nav-item"><a class="nav-link" href="#">Authors</a></li>
+       <li class="nav-item"><g:link class="nav-link" controller="Books">Books</g:link></li>
+       <li class="nav-item"><g:link class="nav-link" controller="Authors">Authors</g:link></li>
    </ul>
 </div>
 

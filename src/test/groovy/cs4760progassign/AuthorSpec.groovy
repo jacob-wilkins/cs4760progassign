@@ -10,9 +10,4 @@ class AuthorSpec extends Specification implements DomainUnitTest<Author> {
 
     def cleanup() {
     }
-
-    void "test something"() {
-        expect:"fix me"
-            true == false
-    }
 }

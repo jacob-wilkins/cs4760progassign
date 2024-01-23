@@ -10,7 +10,7 @@ class BootStrap {
         new Author(name:"Mark Twain")
                 .addToBooks(new Book(title:"Tom Sawyer", publishYear:1876))
                 .addToBooks(new Book(title:"Huckelberry Finn", publishYear:1884))
+                .save()
     }
-    def destroy = {
-    }
+    
 }
